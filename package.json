@@ -1,0 +1,25 @@
+{
+  "name": "01-intro-to-js-and-primitive-data-types",
+  "version": "1.0.0",
+  "description": "01-intro-to-js-and-primitive-data-types",
+  "scripts": {
+    "test": "jest",
+    "test:truncate": "npm test --findRelatedTests ./01-truncate",
+    "test:max": "npm test --findRelatedTests ./02-max",
+    "test:mask": "npm test --findRelatedTests ./03-mask",
+    "test:toSnakeCase": "npm test --findRelatedTests ./04-to-snake-case"
+  },
+  "author": "Volodymyr Shevchuk",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.2.0",
+    "npm": ">=7.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.14.4",
+    "jest": "^27.0.6"
+  }
+}
