@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "truncate",
+      "setup": "npm install",
+      "run": "npm run test:truncate",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "max",
+      "setup": "npm install",
+      "run": "npm run test:max",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "mask",
+      "setup": "npm install",
+      "run": "npm run test:mask",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "toSnakeCase",
+      "setup": "npm install",
+      "run": "npm run test:toSnakeCase",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
